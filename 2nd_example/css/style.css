@@ -1,0 +1,9 @@
+:root {
+--blue: #1e90ff;
+--white: #ffffff;
+--fbold:  bold;
+}
+
+body { background-color: var(--blue); display:flex; flex-direction:column; align-items: center; justify-content: center; }
+h2 { border-bottom: 2px solid var(--white);}
+p{ font-weight: var(--fbold);}
