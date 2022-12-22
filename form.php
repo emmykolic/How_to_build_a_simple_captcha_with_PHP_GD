@@ -6,7 +6,7 @@ include'header.php';
 		<div class="row">
 			<div class="col-md-6 offset-md-3 mt-5 shadow">
 				<form method="post" class="bg-white p-5" action="register_action.php">
-					<div class="bg-success text-center text-white fbold fs-6"><?php get_alert();?></div>
+					<div class="bg-success text-center text-white fbold fs-6"><?= get_alert()?></div>
 				<?php
 					/*if captcha code is posted*/
 					if(isset($_POST["captcha"]))					
