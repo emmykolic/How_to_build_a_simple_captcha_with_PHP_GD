@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 	<div class="container">
-		<div class="row">
-		     <div class="col-md-6 offset-md-3 mt-4 shadow">
+	    <div class="row">
+		<div class="col-md-6 offset-md-3 mt-4 shadow">
 			<form method="POST" class="bg-white p-5" action="form.php">
 				<h2>PROVE! YOU ARE NOT A ROBOT!!</h2><hr>
 				<strong class="alert alert-danger text-muted pt-2">
@@ -19,12 +19,12 @@
 				<?php else: /*Invalid CAPTCHA*/ ?>
 					<p class="text-danger">Invalid <strong>CAPTCHA.</strong> Pls Try again!</p>
 				<?php endif; ?>
-				<div>
-					Can't read the image? Click
-				<a style="text-decoration: none" href='<?= $_SERVER['PHP_SELF']; ?>'>
-					<i class="fa fa-sync"></i>
-				</a>
-				to refresh!
+			<div>
+			   Can't read the image? Click
+		           <a style="text-decoration: none" href='<?= $_SERVER['PHP_SELF']; ?>'>
+				<i class="fa fa-sync"></i>
+			   </a>
+			   to refresh!
 		        </div>
 		    </form>
 		</div>
