@@ -11,13 +11,13 @@ include 'header.php';
 					/*if captcha code is posted*/
 					if(isset($_POST["captcha"]))					
 						if($_SESSION["captcha"]==strtolower($_POST["captcha"])):/*CAPTCHA is valid. You can process the form now.*/?>
-							<p class="text-success"> CAPTCHA is valid. You can process the form now.</p>
+							<div class=" bg-success text-center p-2  text-white fw-bold fs-6"> CAPTCHA is valid. You can process the form now.</div>
 						<?php else: /*Invalid CAPTCHA*/ 
 								header("location: index.php");
 							?>
 							<p class="text-danger">Invalid <strong>CAPTCHA.</strong> Pls Try again!</p>
 						<?php endif; ?>
-						<h2>Registration</h2>
+						<h2 class="mt-2">Registration</h2>
 						<div class="mb-3">
 							<label>Fullname <span class="text-danger">*</span></label>
 							<input type="text" id="captchha" name="fullname" size="20" class="form-control m-1">			
