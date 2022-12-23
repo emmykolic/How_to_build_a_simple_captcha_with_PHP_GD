@@ -27,7 +27,7 @@
 	}
 
 	if($error==0){
-    	$db->query("INSERT INTO users(fullname, gender, email) VALUES('$fullname','gender', '$email')");
+    	$db->query("INSERT INTO users(fullname, gender, email) VALUES('$fullname','$gender', '$email')");
     	set_alert("success", "your registration was successful");
 	   	header("location:form.php");
 	}else{

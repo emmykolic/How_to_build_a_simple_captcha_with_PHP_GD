@@ -1,6 +1,6 @@
 <?php 
 include 'config.php';
-include'header.php';
+include 'header.php';
 ?>
 	<div class="container">
 		<div class="row">
@@ -37,5 +37,4 @@ include'header.php';
 			</div>
 		</div>
 	</div>
-
 	<?php include 'footer.php'; ?>
