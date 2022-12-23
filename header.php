@@ -1,6 +1,3 @@
-<?php
-	//$hash= base64_encode(substr(str_shuffle('ABCDEFGHIJKLMNOPQRSTUVXYZ'), 0, 4));
-?>
 <!DOCTYPE html>
 <html>
 <head>
